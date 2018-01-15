@@ -39,12 +39,14 @@ gg0+geom_jitter()
 gg0+stat_sum()
 
 ##
-(Contraception
+(as_data_frame(Contraception)
 %>% group_by(age,urban)
 %>% summarise(prop=mean(as.numeric(use)-1),
   n=n(),
   se=sqrt(prop*(1-prop)/n))
 )->contr_sum
+contr_sum %>% group_vars()
+contr_sum %>% group_by(n,add=FALSE) %>%group_vars
 
 (ggplot(contr_sum,aes(age,prop,colour=urban))+geom_point(aes(size=n))
 +geom_linerange(aes(ymin=prop-se,ymax=prop+se))
