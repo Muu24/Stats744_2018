@@ -1,5 +1,6 @@
 library(tidyverse)
 library(ggplot2)
+##This is very messy, please see the rmarkdown file HW1.rmd
 ##I eat a lot of fast food and Mcdonald is one of my most usually visit restaurant after midnight.
 #So I am very interested in how I gain so much weights, so this data set is fairly interesting to me.
 ##The data set is from Kaggle and some note is available using R and python with plotly.
@@ -83,3 +84,13 @@ ggplot(bb, aes(x=Sugars,y=Carbohydrates))+geom_point()+geom_abline(intercept = 0
 (ggplot(cc,aes(Category,prop,colour=Category))+geom_jitter()
     +geom_linerange(aes(ymin=prop-se,ymax=prop+se)))
     #+scale_color_brewer(palette = "Dark2"))#+facet_wrap(~Category))
+
+dd<-(select_if(bb, is.numeric))
+cormat <- round(cor(dd),2)
+head(cormat)
+library(reshape2)
+pairs(dd)
+melted_cormat <- melt(cormat)
+head(melted_cormat)
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
+  geom_tile()

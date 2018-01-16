@@ -39,7 +39,6 @@ Graph 2:
 (gg2<-ggplot(bb,aes(x=Calories,y=Saturated.Fat,colour=Category))
 +geom_point()+facet_wrap(~Category)+ geom_smooth(method='loess')+theme_minimal())
 #scale_colour_hue(h = c(270, 360))+
-gg2
 ```
 From the second graph, we can tell that bad fat has postive linear correlation with calories, for beverages, salads and snacks \& Sides, the slopes are rather soft, which means that even though they have high calories, they do not contribute much to my fatness.
 
