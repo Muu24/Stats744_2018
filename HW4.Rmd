@@ -48,5 +48,5 @@ Advantages:
 
 Disadvantages:
 
-It is hard to compare between different catogories eventhough the paper made the comparisons. I consider if we can make the into one row, then we can compare among different catogories easier. However, I am not so sure whether that is the proper thing to do.
+It is hard to compare between different catogories even though the paper made the comparisons. I consider if we can make them into one row, then we can compare among different catogories easier. However, I am not so sure whether that is the proper thing to do.
 
