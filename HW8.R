@@ -1,5 +1,5 @@
 library(networkD3)
-##George Boole , Geoffrey Hinton and Ethel Lilian Voynich
+##George Boole , Geoffrey Hinton, Andrew Ng and Ethel Lilian Voynich
 ##https://zhuanlan.zhihu.com/p/22405961
 source<-c(0,0,0,0,1,6,8,8,8,9,10,6)
 target<-c(2,3,4,5,5,7,9,9,7,10,0,11)
