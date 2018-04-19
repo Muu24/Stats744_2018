@@ -1,6 +1,5 @@
 library(tidyverse)
-dat1<-(read_csv("vaccine_data_online.csv")
-       %>% select(c(cases,disease,year,event)))
+dat1<-(read_csv("vaccine_data_online.csv") %>% select(c(cases,disease,year,event)))
 library(highcharter)
 hchart(dat1, "line", hcaes(x = year, y = log(cases), group = disease),size=0.05)%>%
   hc_tooltip(pointFormat = "{point.cases} cases of {point.disease} reported in {point.x} <br> event: {point.event}")
