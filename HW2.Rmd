@@ -18,17 +18,23 @@ Advantages:
 
 1. No information is lost, we see the graph and just hover on the bubbles, we can get all the information we need, which is cool to be a graph with full information.
 
+**BMB**: agree that dynamic graphs are a useful way to include all the information and allow look-up by the user.
+
 2. The decent usage of hue, identifying the year of vaccine clearly, as well as the shape(scale) of the bubbles, indicating the cases' size.
 
 Disadvantages: 
 
 1. The overlapping of bubbles are severe problems preventing me to see the patterns clearly, I may group the problem as bad usage of luminance as the luminance in the picture actually means nothing, but it is a bit misleading to me.
 
+**BMB**: not sure that luminance is being used to encode information?
+
 2. The size of the bubbles give us the information, if it could be something like lines, or violin plot, it could say more spaces for each year, which may make the graph no overlapping.
 
 3. The size of the graph is too large, if we could shrink the length, it may be better for viewing.
 
 4. If the graph is horizontally rather than vertically, it may be better for me.
+
+**BMB**: agree that space constraints are often a difficult/interesting part of graphic design
 
 ###Graph 1
 ```{r message=FALSE}
