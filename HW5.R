@@ -23,3 +23,5 @@ plot_ly(data = dat2, x = ~year)%>%
 # 1.display information for individual point 
 # 2.display information and compare
 # 3.zoom in and zoom out
+
+# JD: What do you mean by "compare" above?

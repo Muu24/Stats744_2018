@@ -7,3 +7,5 @@ dat1<- graph( c("Geoffrey_Hinton(UT,Google)","Andrew_Ng(Standford,Baidu,Coursera
 plot(dat1, edge.arrow.size=.5, vertex.color="darkred", vertex.size=10,
      vertex.frame.color="gray", vertex.label.color="black",vertex.label.cex=0.7) 
 ##reproduce hw8 interesting relationships among some big guys
+
+## JD: Visualization is pretty hard to read; balls on names.

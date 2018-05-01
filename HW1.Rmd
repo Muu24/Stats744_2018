@@ -15,7 +15,7 @@ So I am very interested in how I gain so much weights, so this data set is fairl
 ```{r, message=FALSE}
 library(tidyverse)
 library(ggplot2)
-aa<-read.csv('menu.csv')
+aa <-read_csv('menu.csv')
 bb<-as_data_frame(aa)
 ```
 

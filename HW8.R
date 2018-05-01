@@ -17,3 +17,4 @@ forceNetwork(Links = Links, Nodes = Nodes, Source = "source",
              Group = "group", opacity = 1, fontSize = 16 , arrows = TRUE,
              zoom = TRUE, legend = TRUE)
 
+## JD: Looks cool, but I can't tell what it is, or what it's doing. I also can't tell who is who by looking at the graphic!
